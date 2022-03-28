@@ -1,0 +1,2 @@
+.slider{position:relative;height:500px}.slider .inner{position:absolute;left:0;top:0;width:100%}.slider .inner .item{position:absolute;left:0;top:0;z-index:-1;opacity:0;-webkit-transition:all 0.4s;transition:all 0.4s}.slider .inner .item.active{z-index:1;opacity:1}.slider .inner .item img{width:100%;height:535px}.slider .prev-btn{position:absolute;top:46%;left:20px;z-index:2;font-size:30px;color:white}.slider .next-btn{position:absolute;top:46%;right:20px;z-index:2;font-size:30px;color:white}
+/*# sourceMappingURL=style.min.css.map */

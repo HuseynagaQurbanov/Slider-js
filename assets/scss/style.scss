@@ -1,0 +1,47 @@
+.slider {
+  position: relative;
+  height: 500px;
+
+  .inner {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+    .item {
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      opacity: 0;
+      transition: all 0.4s;
+
+      &.active {
+        z-index: 1;
+        opacity: 1;
+      }
+
+      img {
+        width: 100%;
+        height: 535px;
+      }
+    }
+  }
+
+  .prev-btn {
+      position: absolute;
+      top: 46%;
+      left: 20px;
+      z-index: 2;
+      font-size: 30px;
+      color: white;
+  }
+
+  .next-btn {
+    position: absolute;
+    top: 46%;
+    right: 20px;
+    z-index: 2;
+    font-size: 30px;
+    color: white;
+  }
+}
